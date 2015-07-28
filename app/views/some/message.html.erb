@@ -1,0 +1,7 @@
+<h1>Send a message to all users</h1>
+
+<%= form_tag("/send_message_to_all", method: "post") do %>
+  <%= label_tag(:message, "Message:") %>
+  <%= text_field_tag(:message) %>
+  <%= submit_tag("Send") %>
+<% end %>
