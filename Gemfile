@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'tele_notify', :git => 'git://github.com/ppati000/tele_notify.git'
+gem 'tele_notify', '0.1.1'
 
 group :production do
   gem 'pg',             '0.17.1'
